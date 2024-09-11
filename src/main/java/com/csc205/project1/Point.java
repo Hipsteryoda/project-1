@@ -2,7 +2,16 @@ package com.csc205.project1;
 
 /*
  Working prompt with Llama 3.1-405B:
-Generate a java class called Point. An object of this class represents a point on a Cartesian plane. A default and a parameterized constructor should be defined, of which points X and Y as type double are given as parameters. It should be able to get and set both X and Y coordinates individually, as well as a separate method that sets a Point at (X,Y) coordinates.Separately as well, there should be two methods which can shift the X and Y coordinate respectively by a given amount. Also, a method should be defined that returns the distance between two points named distance(). The distance between two points (X1,Y1) and (X2,Y2) is given by the formula: sqrt((X1-X2)^2 + (Y1-Y2)^2). Additionally, a method should be defined that rotates a point around the origin by a given angle in radians. The rotation of a point X is given by: x′=xcos(θ)−ysin(θ). The rotation of a point y is given by y'=xcos(θ)+ysin(θ). Finally, a toString() method should be defined that returns the point in the format (X,Y).
+Generate a java class called Point. An object of this class represents a point on a Cartesian plane. 
+A default and a parameterized constructor should be defined, of which points X and Y as type double 
+are given as parameters. It should be able to get and set both X and Y coordinates individually, as 
+well as a separate method that sets a Point at (X,Y) coordinates. Separately as well, there should 
+be two methods which can shift the X and Y coordinate respectively by a given amount. Also, a method 
+should be defined that returns the distance between two points named distance(). The distance between 
+two points (X1,Y1) and (X2,Y2) is given by the formula: sqrt((X1-X2)^2 + (Y1-Y2)^2). Additionally, a 
+method should be defined that rotates a point around the origin by a given angle in radians. The rotation 
+of a point X is given by: x′=xcos(θ)−ysin(θ). The rotation of a point y is given by y'=xcos(θ)+ysin(θ). 
+Finally, a toString() method should be defined that returns the point in the format (X,Y).
 */
 
 public class Point {
